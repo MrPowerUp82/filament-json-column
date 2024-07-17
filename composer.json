@@ -9,7 +9,6 @@
             "email": "gustavohenrique8282@hotmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "vcs",
@@ -67,5 +66,6 @@
             }
         }
     },
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
