@@ -10,6 +10,12 @@
         }
     ],
     "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/MrPowerUp82/filament-json-column"
+        }
+    ],
     "require": {
         "php": "^8.1",
         "filament/forms": "^3.0",
