@@ -1,5 +1,5 @@
 <?php
 
-use ValentinMorice\FilamentJsonColumn\Tests\TestCase;
+use MrPowerUp\FilamentJsonColumn\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

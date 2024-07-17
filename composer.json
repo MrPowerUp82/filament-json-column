@@ -1,24 +1,15 @@
 {
-    "name": "valentin-morice/filament-json-column",
-    "description": "A simple package to view and edit your JSON columns in Filament",
-    "keywords": [
-        "valentin-morice",
-        "laravel",
-        "filament-json-column"
-    ],
-    "homepage": "https://github.com/valentin-morice/filament-json-column",
-    "support": {
-        "issues": "https://github.com/valentin-morice/filament-json-column/issues",
-        "source": "https://github.com/valentin-morice/filament-json-column"
-    },
+    "name": "mrpowerup/filament-json-column",
+    "description": "A simple package to view and edit your JSON columns in Filament.",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "valentin-morice",
-            "email": "valentinmorice1@gmail.com",
-            "role": "Developer"
+            "name": "MrPowerUp82",
+            "email": "gustavohenrique8282@hotmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": "^8.1",
         "filament/forms": "^3.0",
@@ -38,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ValentinMorice\\FilamentJsonColumn\\": "src/"
+            "MrPowerUp\\FilamentJsonColumn\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ValentinMorice\\FilamentJsonColumn\\Tests\\": "tests/"
+            "MrPowerUp\\FilamentJsonColumn\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -63,13 +54,12 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ValentinMorice\\FilamentJsonColumn\\FilamentJsonColumnServiceProvider"
+                "MrPowerUp\\FilamentJsonColumn\\FilamentJsonColumnServiceProvider"
             ],
             "aliases": {
-                "FilamentJsonColumn": "ValentinMorice\\FilamentJsonColumn\\Facades\\FilamentJsonColumn"
+                "FilamentJsonColumn": "MrPowerUp\\FilamentJsonColumn\\Facades\\FilamentJsonColumn"
             }
         }
     },
-    "minimum-stability": "dev",
     "prefer-stable": true
 }

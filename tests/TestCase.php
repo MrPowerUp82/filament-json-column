@@ -1,6 +1,6 @@
 <?php
 
-namespace ValentinMorice\FilamentJsonColumn\Tests;
+namespace MrPowerUp\FilamentJsonColumn\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
@@ -16,7 +16,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
-use ValentinMorice\FilamentJsonColumn\FilamentJsonColumnServiceProvider;
+use MrPowerUp\FilamentJsonColumn\FilamentJsonColumnServiceProvider;
 
 class TestCase extends Orchestra
 {

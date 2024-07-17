@@ -1,6 +1,6 @@
 <?php
 
-namespace ValentinMorice\FilamentJsonColumn;
+namespace MrPowerUp\FilamentJsonColumn;
 
 use Filament\Forms\Components\Field;
 
