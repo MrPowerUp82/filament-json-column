@@ -19,9 +19,9 @@ class FilamentJsonColumn extends Field
         parent::setUp();
 
         $this->beforeStateDehydrated(function(FilamentJsonColumn $component, $state) {
-            // if (is_string($state)) {
-            //     $component->state(json_decode($state, true));
-            // }
+            if (is_string($state)) {
+                $component->state(json_decode($state, true));
+            }
         });
     }
 
